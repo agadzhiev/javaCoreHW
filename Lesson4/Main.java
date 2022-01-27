@@ -5,6 +5,7 @@ public class Main {
         PhoneBook();
         WordsArray wordsArray = new WordsArray((String[]) createArrayOfWords());
         wordsArray.doArrayWords();
+
     }
 
     private static void PhoneBook() {
