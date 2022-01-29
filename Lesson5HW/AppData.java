@@ -35,6 +35,7 @@ public class AppData {
         for (int i = 0; i < header.length; i++) {
             line.append(header[i]);
             line.append(RAZDELITEL);
+
         }
 
         writer.write(line.toString());
